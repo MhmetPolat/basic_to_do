@@ -4,7 +4,7 @@ def add_task(task):
     tasks.append(task)
     print(f"Task added: {task}")
 
-def list_tasks(task):
+def list_tasks():
     if not tasks:
         print("Task list empty.")
     else:
@@ -17,10 +17,10 @@ def delete_task(task_number):
         removed_task = tasks.pop(task_number - 1)    
         print(f"Task deleted: {removed_task}")
     else:
-        print("İnvalid number!")
+        print("Invalid number!")
 
 while True:
-    print("/n 1. Add Task")
+    print("\n 1. Add Task")
     print("2. List Tasks")
     print("3. Delete Tasks")
     print("4. Exit")
