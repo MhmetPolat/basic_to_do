@@ -32,7 +32,7 @@ while True:
         add_task(task)
 
     elif choice == "2":
-        list_tasks
+        list_tasks()
 
     elif choice == "3":
         list_tasks()                   
@@ -44,4 +44,4 @@ while True:
         break
 
     else:
-        print("İnvalid login, please try again!")
+        print("İnvalid choice, please try again!")
